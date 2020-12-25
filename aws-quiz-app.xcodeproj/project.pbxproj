@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61622342588A47900737DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61622332588A47900737DE4 /* AppDelegate.swift */; };
+		E61622362588A47900737DE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61622352588A47900737DE4 /* SceneDelegate.swift */; };
+		E61622382588A47900737DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61622372588A47900737DE4 /* ViewController.swift */; };
+		E616223B2588A47900737DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61622392588A47900737DE4 /* Main.storyboard */; };
+		E616223D2588A47A00737DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E616223C2588A47A00737DE4 /* Assets.xcassets */; };
+		E61622402588A47A00737DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E616223E2588A47A00737DE4 /* LaunchScreen.storyboard */; };
+		E616224B2588A47A00737DE4 /* aws_quiz_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616224A2588A47A00737DE4 /* aws_quiz_appTests.swift */; };
+		E61622562588A47A00737DE4 /* aws_quiz_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61622552588A47A00737DE4 /* aws_quiz_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E61622472588A47A00737DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61622282588A47900737DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E616222F2588A47900737DE4;
+			remoteInfo = "aws-quiz-app";
+		};
+		E61622522588A47A00737DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61622282588A47900737DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E616222F2588A47900737DE4;
+			remoteInfo = "aws-quiz-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E61622302588A47900737DE4 /* aws-quiz-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aws-quiz-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61622332588A47900737DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E61622352588A47900737DE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E61622372588A47900737DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E616223A2588A47900737DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E616223C2588A47A00737DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E616223F2588A47A00737DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E61622412588A47A00737DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61622462588A47A00737DE4 /* aws-quiz-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-quiz-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E616224A2588A47A00737DE4 /* aws_quiz_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_quiz_appTests.swift; sourceTree = "<group>"; };
+		E616224C2588A47A00737DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61622512588A47A00737DE4 /* aws-quiz-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-quiz-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61622552588A47A00737DE4 /* aws_quiz_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_quiz_appUITests.swift; sourceTree = "<group>"; };
+		E61622572588A47A00737DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E616222D2588A47900737DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61622432588A47A00737DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E616224E2588A47A00737DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61622272588A47900737DE4 = {
+			isa = PBXGroup;
+			children = (
+				E61622322588A47900737DE4 /* aws-quiz-app */,
+				E61622492588A47A00737DE4 /* aws-quiz-appTests */,
+				E61622542588A47A00737DE4 /* aws-quiz-appUITests */,
+				E61622312588A47900737DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61622312588A47900737DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61622302588A47900737DE4 /* aws-quiz-app.app */,
+				E61622462588A47A00737DE4 /* aws-quiz-appTests.xctest */,
+				E61622512588A47A00737DE4 /* aws-quiz-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61622322588A47900737DE4 /* aws-quiz-app */ = {
+			isa = PBXGroup;
+			children = (
+				E61622332588A47900737DE4 /* AppDelegate.swift */,
+				E61622352588A47900737DE4 /* SceneDelegate.swift */,
+				E61622372588A47900737DE4 /* ViewController.swift */,
+				E61622392588A47900737DE4 /* Main.storyboard */,
+				E616223C2588A47A00737DE4 /* Assets.xcassets */,
+				E616223E2588A47A00737DE4 /* LaunchScreen.storyboard */,
+				E61622412588A47A00737DE4 /* Info.plist */,
+			);
+			path = "aws-quiz-app";
+			sourceTree = "<group>";
+		};
+		E61622492588A47A00737DE4 /* aws-quiz-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				E616224A2588A47A00737DE4 /* aws_quiz_appTests.swift */,
+				E616224C2588A47A00737DE4 /* Info.plist */,
+			);
+			path = "aws-quiz-appTests";
+			sourceTree = "<group>";
+		};
+		E61622542588A47A00737DE4 /* aws-quiz-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E61622552588A47A00737DE4 /* aws_quiz_appUITests.swift */,
+				E61622572588A47A00737DE4 /* Info.plist */,
+			);
+			path = "aws-quiz-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E616222F2588A47900737DE4 /* aws-quiz-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E616225A2588A47A00737DE4 /* Build configuration list for PBXNativeTarget "aws-quiz-app" */;
+			buildPhases = (
+				E616222C2588A47900737DE4 /* Sources */,
+				E616222D2588A47900737DE4 /* Frameworks */,
+				E616222E2588A47900737DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aws-quiz-app";
+			productName = "aws-quiz-app";
+			productReference = E61622302588A47900737DE4 /* aws-quiz-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E61622452588A47A00737DE4 /* aws-quiz-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E616225D2588A47A00737DE4 /* Build configuration list for PBXNativeTarget "aws-quiz-appTests" */;
+			buildPhases = (
+				E61622422588A47A00737DE4 /* Sources */,
+				E61622432588A47A00737DE4 /* Frameworks */,
+				E61622442588A47A00737DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61622482588A47A00737DE4 /* PBXTargetDependency */,
+			);
+			name = "aws-quiz-appTests";
+			productName = "aws-quiz-appTests";
+			productReference = E61622462588A47A00737DE4 /* aws-quiz-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E61622502588A47A00737DE4 /* aws-quiz-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61622602588A47A00737DE4 /* Build configuration list for PBXNativeTarget "aws-quiz-appUITests" */;
+			buildPhases = (
+				E616224D2588A47A00737DE4 /* Sources */,
+				E616224E2588A47A00737DE4 /* Frameworks */,
+				E616224F2588A47A00737DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61622532588A47A00737DE4 /* PBXTargetDependency */,
+			);
+			name = "aws-quiz-appUITests";
+			productName = "aws-quiz-appUITests";
+			productReference = E61622512588A47A00737DE4 /* aws-quiz-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61622282588A47900737DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E616222F2588A47900737DE4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E61622452588A47A00737DE4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E616222F2588A47900737DE4;
+					};
+					E61622502588A47A00737DE4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E616222F2588A47900737DE4;
+					};
+				};
+			};
+			buildConfigurationList = E616222B2588A47900737DE4 /* Build configuration list for PBXProject "aws-quiz-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E61622272588A47900737DE4;
+			productRefGroup = E61622312588A47900737DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E616222F2588A47900737DE4 /* aws-quiz-app */,
+				E61622452588A47A00737DE4 /* aws-quiz-appTests */,
+				E61622502588A47A00737DE4 /* aws-quiz-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E616222E2588A47900737DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61622402588A47A00737DE4 /* LaunchScreen.storyboard in Resources */,
+				E616223D2588A47A00737DE4 /* Assets.xcassets in Resources */,
+				E616223B2588A47900737DE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61622442588A47A00737DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E616224F2588A47A00737DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E616222C2588A47900737DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61622382588A47900737DE4 /* ViewController.swift in Sources */,
+				E61622342588A47900737DE4 /* AppDelegate.swift in Sources */,
+				E61622362588A47900737DE4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61622422588A47A00737DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E616224B2588A47A00737DE4 /* aws_quiz_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E616224D2588A47A00737DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61622562588A47A00737DE4 /* aws_quiz_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E61622482588A47A00737DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E616222F2588A47900737DE4 /* aws-quiz-app */;
+			targetProxy = E61622472588A47A00737DE4 /* PBXContainerItemProxy */;
+		};
+		E61622532588A47A00737DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E616222F2588A47900737DE4 /* aws-quiz-app */;
+			targetProxy = E61622522588A47A00737DE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E61622392588A47900737DE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E616223A2588A47900737DE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E616223E2588A47A00737DE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E616223F2588A47A00737DE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61622582588A47A00737DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E61622592588A47A00737DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E616225B2588A47A00737DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-quiz-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "x-power.aws-quiz-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E616225C2588A47A00737DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-quiz-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "x-power.aws-quiz-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E616225E2588A47A00737DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-quiz-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "x-power.aws-quiz-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-quiz-app.app/aws-quiz-app";
+			};
+			name = Debug;
+		};
+		E616225F2588A47A00737DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-quiz-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "x-power.aws-quiz-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-quiz-app.app/aws-quiz-app";
+			};
+			name = Release;
+		};
+		E61622612588A47A00737DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-quiz-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "x-power.aws-quiz-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-quiz-app";
+			};
+			name = Debug;
+		};
+		E61622622588A47A00737DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-quiz-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "x-power.aws-quiz-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-quiz-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E616222B2588A47900737DE4 /* Build configuration list for PBXProject "aws-quiz-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61622582588A47A00737DE4 /* Debug */,
+				E61622592588A47A00737DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E616225A2588A47A00737DE4 /* Build configuration list for PBXNativeTarget "aws-quiz-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E616225B2588A47A00737DE4 /* Debug */,
+				E616225C2588A47A00737DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E616225D2588A47A00737DE4 /* Build configuration list for PBXNativeTarget "aws-quiz-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E616225E2588A47A00737DE4 /* Debug */,
+				E616225F2588A47A00737DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61622602588A47A00737DE4 /* Build configuration list for PBXNativeTarget "aws-quiz-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61622612588A47A00737DE4 /* Debug */,
+				E61622622588A47A00737DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61622282588A47900737DE4 /* Project object */;
+}
