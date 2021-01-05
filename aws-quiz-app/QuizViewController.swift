@@ -15,13 +15,16 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerBtn3: UIButton!
     @IBOutlet weak var answerBtn4: UIButton!
     
-    var quizArray:[String] = ["機械学習用の効率を2倍にするサービスは？","0","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"]
-    var quizCount = 0
+    var quizArray:Dictionary<Int, Array<String>> = [
+        1:["機械学習用の効率を2倍にするサービスは？","0","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"],
+        2: ["機械学習用の効率を2倍にするサービスは？","0","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"]
+    ]
+    var quizCount = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
         quizNumberLabel.text = "第１問"
-        quizTextVire.text = quizArray[0]
+        quizTextVire.text = quizArray[quizCount][0]
         answerBtn1.setTitle(quizArray[2], for: .normal)
         answerBtn2.setTitle(quizArray[3], for: .normal)
         answerBtn3.setTitle(quizArray[4], for: .normal)
