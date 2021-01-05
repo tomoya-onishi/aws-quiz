@@ -14,7 +14,6 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerBtn2: UIButton!
     @IBOutlet weak var answerBtn3: UIButton!
     @IBOutlet weak var answerBtn4: UIButton!
-    @IBOutlet weak var isSuccess: UIImageView!
     
     var quizArray:[String] = ["機械学習用の効率を2倍にするサービスは？","0","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"]
     var quizCount = 0
@@ -31,29 +30,10 @@ class QuizViewController: UIViewController {
     
     @IBAction func btnAction(sender: UIButton){
         if sender.tag == Int(quizArray[1]){
-            self.isSuccess.isHidden = false
-            isSuccess.image = UIImage(named: "success")
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3){
-                self.isSuccess.isHidden = true
-            }
-            print("正解")
+            self.performSegue(withIdentifier: "success", sender: nil)
         }else{
-            self.isSuccess.isHidden = false
-            isSuccess.image = UIImage(named: "failure")
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3){
-                self.isSuccess.isHidden = true
-            }
+            self.performSegue(withIdentifier: "failure", sender: nil)
         }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -17,6 +17,8 @@
 		E61622402588A47A00737DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E616223E2588A47A00737DE4 /* LaunchScreen.storyboard */; };
 		E616224B2588A47A00737DE4 /* aws_quiz_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616224A2588A47A00737DE4 /* aws_quiz_appTests.swift */; };
 		E61622562588A47A00737DE4 /* aws_quiz_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61622552588A47A00737DE4 /* aws_quiz_appUITests.swift */; };
+		E6C1A4C525A45A31002FEFD1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1A4C425A45A31002FEFD1 /* StartViewController.swift */; };
+		E6C1A4CA25A45BAE002FEFD1 /* ReturnResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1A4C925A45BAE002FEFD1 /* ReturnResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E61622512588A47A00737DE4 /* aws-quiz-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-quiz-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61622552588A47A00737DE4 /* aws_quiz_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_quiz_appUITests.swift; sourceTree = "<group>"; };
 		E61622572588A47A00737DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C1A4C425A45A31002FEFD1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		E6C1A4C925A45BAE002FEFD1 /* ReturnResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				E61622372588A47900737DE4 /* ViewController.swift */,
 				E61622392588A47900737DE4 /* Main.storyboard */,
 				646BE4FF259AD1AA00FE5E21 /* QuizViewController.swift */,
+				E6C1A4C425A45A31002FEFD1 /* StartViewController.swift */,
+				E6C1A4C925A45BAE002FEFD1 /* ReturnResultViewController.swift */,
 				646BE4FA259AC3E600FE5E21 /* ScoreViewController.swift */,
 				E616223C2588A47A00737DE4 /* Assets.xcassets */,
 				E616223E2588A47A00737DE4 /* LaunchScreen.storyboard */,
@@ -269,6 +275,8 @@
 				E61622342588A47900737DE4 /* AppDelegate.swift in Sources */,
 				E61622362588A47900737DE4 /* SceneDelegate.swift in Sources */,
 				646BE4FB259AC3E700FE5E21 /* ScoreViewController.swift in Sources */,
+				E6C1A4C525A45A31002FEFD1 /* StartViewController.swift in Sources */,
+				E6C1A4CA25A45BAE002FEFD1 /* ReturnResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
