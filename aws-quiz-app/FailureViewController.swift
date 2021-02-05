@@ -7,7 +7,8 @@
 
 import UIKit
 
-class ReturnResultViewController: UIViewController ,UIGestureRecognizerDelegate{
+class FailureViewController: UIViewController ,UIGestureRecognizerDelegate{
+    var quizCount = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,12 @@ class ReturnResultViewController: UIViewController ,UIGestureRecognizerDelegate{
     @objc func tapped(_ sender: UITapGestureRecognizer){
         if sender.state == .ended{
             self.performSegue(withIdentifier: "return", sender: nil)
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "return" {
+            let next = segue.destination as? QuizViewController
+            next?.quizCount = self.quizCount
         }
     }
 

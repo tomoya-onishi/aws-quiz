@@ -17,26 +17,42 @@ class QuizViewController: UIViewController {
     
     var quizArray:Dictionary<Int, Array<String>> = [
         1:["機械学習用の効率を2倍にするサービスは？","0","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"],
-        2: ["機械学習用の効率を2倍にするサービスは？","0","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"]
+        2: ["二問目","2","Amazon SageMaker Neo","Amazon SageMaker nearest neighbor","Amazon SageMaker Ground Truth", "Amazon Rekognition"]
     ]
     var quizCount = 1
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        quizNumberLabel.text = "第１問"
-        quizTextVire.text = quizArray[quizCount][0]
-        answerBtn1.setTitle(quizArray[2], for: .normal)
-        answerBtn2.setTitle(quizArray[3], for: .normal)
-        answerBtn3.setTitle(quizArray[4], for: .normal)
-        answerBtn4.setTitle(quizArray[5], for: .normal)
     }
-    
-    @IBAction func btnAction(sender: UIButton){
-        if sender.tag == Int(quizArray[1]){
-            self.performSegue(withIdentifier: "success", sender: nil)
-        }else{
-            self.performSegue(withIdentifier: "failure", sender: nil)
+    override func viewWillAppear(_ animated: Bool) {
+        if let quiz = quizArray[quizCount]{
+            quizNumberLabel.text = "第" + String(quizCount) + "問"
+            quizTextVire.text = quiz[0]
+            answerBtn1.setTitle(quiz[2], for: .normal)
+            answerBtn2.setTitle(quiz[3], for: .normal)
+            answerBtn3.setTitle(quiz[4], for: .normal)
+            answerBtn4.setTitle(quiz[5], for: .normal)
         }
     }
-
+    @IBAction func btnAction(sender: UIButton){
+        dump(quizArray[quizCount])
+        if let quiz = quizArray[quizCount]{
+            if sender.tag == Int(quiz[1]){
+                self.performSegue(withIdentifier: "success", sender: nil)
+            }else{
+                self.performSegue(withIdentifier: "failure", sender: nil)
+            }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "success" {
+            let successView = segue.destination as! SuccessViewController
+            //SecondViewでtextを宣言する必要あり
+            successView.quizCount = quizCount
+        }else if segue.identifier == "failure" {
+            let failureView = segue.destination as! FailureViewController
+            failureView.quizCount = quizCount
+        }
+    }
 }

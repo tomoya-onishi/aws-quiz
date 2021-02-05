@@ -35,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500.00000000000006" y="-113.16964285714285"/>
+            <point key="canvasLocation" x="-645" y="737"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0hW-HV-Wji">
@@ -71,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I60-kG-DeX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="528.98550724637687" y="761.38392857142856"/>
+            <point key="canvasLocation" x="419" y="737"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qvJ-zR-pch">
@@ -93,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0V-Mc-Xrd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1401" y="-113"/>
+            <point key="canvasLocation" x="2488" y="-153"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="syy-VX-Twf">
@@ -168,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1r6-9P-dcF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1441" y="761"/>
+            <point key="canvasLocation" x="1406" y="737"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="wcx-CR-QKO">
@@ -197,12 +197,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZC-Pf-4fJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2366.666666666667" y="760.71428571428567"/>
+            <point key="canvasLocation" x="3429" y="-153"/>
         </scene>
-        <!--Return Result View Controller-->
+        <!--Success View Controller-->
         <scene sceneID="3Qp-QB-tio">
             <objects>
-                <viewController id="ZQS-fq-R8i" customClass="ReturnResultViewController" customModule="aws_quiz_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZQS-fq-R8i" customClass="SuccessViewController" customModule="aws_quiz_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eTx-IQ-Phd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,17 +230,17 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="Puj-UC-QcP" kind="presentation" identifier="return" modalPresentationStyle="fullScreen" id="S5A-qD-sh6"/>
+                        <segue destination="Puj-UC-QcP" kind="presentation" identifier="returnSuccess" modalPresentationStyle="fullScreen" id="S5A-qD-sh6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lZ-0X-5tM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1441" y="1485"/>
+            <point key="canvasLocation" x="419" y="1471"/>
         </scene>
-        <!--Return Result View Controller-->
+        <!--Failure View Controller-->
         <scene sceneID="DNt-fE-lEW">
             <objects>
-                <viewController id="EyF-DC-kiG" customClass="ReturnResultViewController" customModule="aws_quiz_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EyF-DC-kiG" customClass="FailureViewController" customModule="aws_quiz_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R67-LI-cJd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,12 +266,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9oe-aA-ko3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2367" y="1486"/>
+            <point key="canvasLocation" x="1406" y="1471"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mMW-VB-OwO"/>
-        <segue reference="5VP-c6-ZoE"/>
+        <segue reference="KZp-88-XkM"/>
+        <segue reference="S5A-qD-sh6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="failure" width="500" height="500"/>
